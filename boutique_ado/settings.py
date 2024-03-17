@@ -28,6 +28,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-jkirkby95-boutiqueado-zkwu59puab5.ws-eu108.gitpod.io',
+    '8000-jkirkby95-boutiqueado-zkwu59puab5.ws-eu110.gitpod.io',
 ]
 
 
@@ -45,6 +46,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home',
+    'products',
 ]
 
 MIDDLEWARE = [
